@@ -12,7 +12,7 @@ namespace RazorPages.Pages
 
         public void OnGet()
         {
-            Message = "Your application description page.";
+            Message = "I have implemented a movie database through the ASP.NET framework.";
         }
     }
 }

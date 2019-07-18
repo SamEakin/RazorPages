@@ -36,8 +36,16 @@ namespace RazorPages
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
+
+            /*
+            // LocalDB is not supported on my Mac.
             services.AddDbContext<RazorPagesContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("RazorPagesContext")));
+            */
+
+            // While developing on my Mac I have to use an in-memory database.
+            services.AddDbContext<RazorPagesContext>(options => options.UseInMemoryDatabase("RazorPagesContext"));
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
