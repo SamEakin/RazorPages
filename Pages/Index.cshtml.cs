@@ -25,5 +25,4 @@ namespace RazorPages.Pages.Movies
             Movie = await _context.Movie.ToListAsync();
         }
     }
-
 }
