@@ -33,12 +33,12 @@ My web app allows users to share their favorite movies by adding movies to the d
 #### Functionality:
 
 ##### Home Page:
-![Home Page]([github.com/SamEakin/Temperature-Converter/blob/master/TempConverterPicture.png](https://github.com/SamEakin/RazorPages/screenshots-movie-app/home-screen.png))
+![Home Page](github.com/SamEakin/Temperature-Converter/blob/master/TempConverterPicture.png](https://github.com/SamEakin/RazorPages/screenshots-movie-app/home-screen.png))
 ##### Create Page:
-![Create Page]([github.com/SamEakin/Temperature-Converter/blob/master/TempConverterPicture.png](https://github.com/SamEakin/RazorPages/screenshots-movie-app/create-screen.png))
+![Create Page](github.com/SamEakin/Temperature-Converter/blob/master/TempConverterPicture.png](https://github.com/SamEakin/RazorPages/screenshots-movie-app/create-screen.png))
 ##### Details Page:
-![Details Page]([github.com/SamEakin/Temperature-Converter/blob/master/TempConverterPicture.png](https://github.com/SamEakin/RazorPages/screenshots-movie-app/details-screen.png))
+![Details Page](github.com/SamEakin/Temperature-Converter/blob/master/TempConverterPicture.png](https://github.com/SamEakin/RazorPages/screenshots-movie-app/details-screen.png))
 ##### Edit Page:
-![Edit Page]([github.com/SamEakin/Temperature-Converter/blob/master/TempConverterPicture.png](https://github.com/SamEakin/RazorPages/screenshots-movie-app/edit-screen.png))
+![Edit Page](github.com/SamEakin/Temperature-Converter/blob/master/TempConverterPicture.png](https://github.com/SamEakin/RazorPages/screenshots-movie-app/edit-screen.png))
 ##### Delete Page:
-![Delete Page]([github.com/SamEakin/Temperature-Converter/blob/master/TempConverterPicture.png](https://github.com/SamEakin/RazorPages/screenshots-movie-app/delete-screen.png))
+![Delete Page](github.com/SamEakin/Temperature-Converter/blob/master/TempConverterPicture.png](https://github.com/SamEakin/RazorPages/screenshots-movie-app/delete-screen.png))
