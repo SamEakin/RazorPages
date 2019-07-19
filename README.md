@@ -15,6 +15,7 @@ Streaming providers such as Netflix all have a User List feature where users can
 #### Solution:
 
 My web app allows users to share their favorite movies by adding movies to the database.
+The format is a CRUD app for manipulating and displaying the database table to and from the page.
 
 ---
 
