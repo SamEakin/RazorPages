@@ -33,12 +33,12 @@ My web app allows users to share their favorite movies by adding movies to the d
 #### Functionality:
 
 ##### Home Page:
-![Home Page](https://github.com/SamEakin/RazorPages/screenshots-movie-app/home-screen.png)
+![Home Page](https://github.com/SamEakin/RazorPages/blob/screenshots-movie-app/home-screen.png)
 ##### Create Page:
-![Create Page](https://github.com/SamEakin/RazorPages/screenshots-movie-app/create-screen.png)
+![Create Page](https://github.com/SamEakin/RazorPages/blob/screenshots-movie-app/create-screen.png)
 ##### Details Page:
-![Details Page](https://github.com/SamEakin/RazorPages/screenshots-movie-app/details-screen.png)
+![Details Page](https://github.com/SamEakin/RazorPages/blob/screenshots-movie-app/details-screen.png)
 ##### Edit Page:
-![Edit Page](https://github.com/SamEakin/RazorPages/screenshots-movie-app/edit-screen.png)
+![Edit Page](https://github.com/SamEakin/RazorPages/blob/screenshots-movie-app/edit-screen.png)
 ##### Delete Page:
-![Delete Page](https://github.com/SamEakin/RazorPages/screenshots-movie-app/delete-screen.png)
+![Delete Page](https://github.com/SamEakin/RazorPages/blob/screenshots-movie-app/delete-screen.png)
