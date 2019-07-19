@@ -5,13 +5,15 @@
     ViewData["Title"] = "Index";
 }
 
-<h2>Index</h2>
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">Movies</h1>
+        <p class="lead">This is a list of movies worth watching.</p>
+    </div>
+</div>
 
-<p>
-    <a asp-page="Create">Create New</a>
-</p>
 <table class="table">
-    <thead>
+    <thead class="thead-dark">
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Movie[0].Title)
@@ -29,26 +31,31 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model.Movie) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Title)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ReleaseDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Genre)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model.Movie)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReleaseDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Genre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)   
+                </td>
+                <td>
+                    <a asp-page="./Details" class="btn btn-info" asp-route-id="@item.Id">Details</a>
+                    <a asp-page="./Edit" class="btn btn-warning" asp-route-id="@item.Id">Edit</a>
+                    <a asp-page="./Delete" class="btn btn-danger" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
+
+<container>
+    <a class="btn btn-primary btn-lg" role="button" asp-page="/Movies/Create">Add movie</a>
+</container>

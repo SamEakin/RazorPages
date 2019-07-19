@@ -5,14 +5,15 @@
     ViewData["Title"] = "Home page";
 }
 
-<h1>My Favorite Movies</h1>
-
-<p>
-    <a asp-page="/Movies/Create">Create New</a>
-</p>
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">Movies</h1>
+        <p class="lead">This is a list of movies worth watching.</p>
+    </div>
+</div>
 
 <table class="table">
-    <thead>
+    <thead class="thead-dark">
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Movie[0].Title)
@@ -46,11 +47,16 @@
                     @Html.DisplayFor(modelItem => item.Price)
                 </td>
                 <td>
-                    <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
-                    <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                    <a asp-page="./Movies/Details" class="btn btn-info" asp-route-id="@item.Id">Details</a>
+                    <a asp-page="./Movies/Edit" class="btn btn-warning" asp-route-id="@item.Id">Edit</a>
+                    <a asp-page="./Movies/Delete" class="btn btn-danger" asp-route-id="@item.Id">Delete</a>
                 </td>
             </tr>
         }
     </tbody>
 </table>
+
+
+<container>
+    <a class="btn btn-primary btn-lg" role="button" asp-page="/Movies/Create">Add movie</a>
+</container>
